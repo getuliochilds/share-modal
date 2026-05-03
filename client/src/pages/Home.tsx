@@ -27,7 +27,12 @@ export default function Home() {
             </div>
             <h1 className="text-xl font-bold text-gray-900">ShareModal</h1>
           </div>
-          <p className="text-sm text-gray-600">高保真分享弹窗原型</p>
+          <div className="flex items-center gap-6">
+            <a href="/share" className="text-sm text-gray-600 hover:text-gray-900 transition-colors font-medium">
+              📄 分享页面
+            </a>
+            <p className="text-sm text-gray-600">高保真分享弹窗原型</p>
+          </div>
         </div>
       </nav>
 
