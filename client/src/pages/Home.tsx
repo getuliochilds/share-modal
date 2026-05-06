@@ -31,6 +31,9 @@ export default function Home() {
             <a href="/share" className="text-sm text-gray-600 hover:text-gray-900 transition-colors font-medium">
               📄 分享页面
             </a>
+            <a href="/security" className="text-sm text-gray-600 hover:text-gray-900 transition-colors font-medium">
+              🔒 安全设置
+            </a>
             <p className="text-sm text-gray-600">高保真分享弹窗原型</p>
           </div>
         </div>
