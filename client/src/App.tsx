@@ -7,6 +7,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import SharePage from "./pages/SharePage";
 import SecurityPage from "./pages/SecurityPage";
+import ReferralExhibitionPage from "./pages/ReferralExhibitionPage";
 
 
 function Router() {
@@ -15,6 +16,7 @@ function Router() {
       <Route path={"/"} component={Home} />
       <Route path={"/share"} component={SharePage} />
       <Route path={"/security"} component={SecurityPage} />
+      <Route path={"/referral"} component={ReferralExhibitionPage} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
