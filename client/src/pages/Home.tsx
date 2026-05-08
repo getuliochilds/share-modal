@@ -37,6 +37,9 @@ export default function Home() {
             <a href="/referral" className="text-sm text-gray-600 hover:text-gray-900 transition-colors font-medium">
               💰 推荐计划
             </a>
+            <a href="/referral-dashboard" className="text-sm text-gray-600 hover:text-gray-900 transition-colors font-medium">
+              📊 推荐仪表板
+            </a>
             <p className="text-sm text-gray-600">高保真分享弹窗原型</p>
           </div>
         </div>
